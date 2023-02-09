@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.outer-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.form-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(192, 171, 133);
+}
+
+.title{
+    margin-bottom: 200px;
+}
+
+.smt-btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.name-field{
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+}

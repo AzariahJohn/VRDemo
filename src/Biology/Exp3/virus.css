@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.iframe{
+    height: 100vh;
+    width: 100%;
+}
+
+.black-bar-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 3;
+    background-color: black;
+}
+
+.black-bar-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 3;
+    background-color: black;
+}
